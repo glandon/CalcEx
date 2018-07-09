@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/feedback" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="voice_on"
+            android:summary="@string/voicesummary"
+            android:title="@string/voice" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="haptic_on"
+            android:summary="@string/hapticsummary"
+            android:title="@string/haptic" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
